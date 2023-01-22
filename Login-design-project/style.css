@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(Image/background-img.jpg); */
+    background-color: #c1f0f9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    width: 100vw;
+}
+
+@media screen {
+    .main{
+        margin: auto;
+        width: 28vw;
+        background-color: white;
+        margin-top: 125px;
+        margin-bottom: 80px;
+        border-radius: 20px;
+        padding: 30px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    
+}
+
+.main_top{
+    text-align: center;
+    font-weight: 900;
+}
+
+h2{
+    color: #100438;
+    font-family: "varela Round";
+    padding: 10px;
+    box-sizing: border-box;
+}
+.middle-line{
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: small;
+    color: #100438;
+    text-align: center;
+    font-family: "Mulish";
+
+}
+
+h3{
+    color: #ffa500;
+    font-family: "varela Round";
+    font-size: small;
+
+}
+.main_top img{
+    /* width: 30%; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.email-input{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    border: 2px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #00FFFF;
+   
+}
+
+.input_email{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #00FFFF;
+    font-family: "varela Round";
+    font-size: small;
+    font-weight: 900;
+    overflow: hidden;
+    color: rgb(12, 12, 70);
+   
+}
+
+.input_password{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #00FFFF;
+    font-family: "varela Round";
+    font-size: small;
+    font-weight: 900;
+    overflow: hidden;
+    color: rgb(12, 12, 70);
+   
+}
+.password-input{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-family: "varela Round";
+    font-weight: 900;
+    box-sizing: border-box;
+    background-color: #00FFFF;
+    overflow: hidden;
+    color: rgb(12, 12, 70);
+}
+
+.icon{
+    padding: 20px 0 20px 20px;
+    background-color: transparent;
+    color: rgb(107, 107, 107);
+    min-width: 50px;
+    /* text-align: center; */
+    font-weight: 900;
+    font-size: large;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+input[type=email-input]{
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+input[type=password-input]{
+    width: 100%;
+    padding: 20px 10px 20px 2px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+form .email-input:hover{
+    outline: 5px solid rgb(82, 205, 246);
+}
+
+form .password-input:hover{
+    outline: 5px solid rgb(82, 205, 246);
+}
+
+.main_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.reminder{
+    font-family: "Mulish";
+    font-size: small;
+}
+
+.link{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: blue;
+    font-family: "Mulish";
+    font-size: small;
+
+}
+button:hover { 
+    background-color: orangered;
+}
+
+button { 
+    width: 100%;
+    padding: 20px 20px;
+    margin: 40px 0 20px 0;
+    border-radius: 10px;
+    background-color: #ffbf00;
+    font-weight: 700;
+    font-family: "varela Round";
+    box-shadow: 0 3px 0 0 #100438;
+    box-sizing: border-box;
+    color: #100438;
+}
+
+.enter{
+    overflow: hidden;
+}
+
+.account {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.sign-up{
+    color: blueviolet;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: rgb(12, 12, 70);
+    display: flex;
+    padding: 20px;
+    color: white;
+    width: 100vw;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.footer p { 
+padding: 10px;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    background-color: #c1f0f9;
+    background-image: url('background-img.jpg');
+    width: 100vw;
+}
+
+.form{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1.5%; 
+    height: 93%;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.greeting{
+    text-align: center;
+    font-family: "Arimo";
+    font-stretch:extra-expanded;
+    font-size:small;
+}
+
+.form h2{
+    text-align: center;
+}
+.form p{
+    text-align: center;
+}
+.notification{
+    display: flex;
+    justify-content: space-between;
+}
+.input-field{
+    padding-left: 16px;
+    padding-right: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border:none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 15px;
+}
+
+.input-area{
+    padding-left: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    outline: 2px solid #87cefa;
+}
+.btn{
+    margin-top: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 117px;
+    padding-right: 117px;
+    border-radius: 10px;
+    background-color: #ffbf00;
+    color: #100438;
+    font-weight: 200;
+    font-family: "varela Round";
+    box-shadow: 0 3px 0 0 #100438;
+    cursor: pointer;
+    transition: ease;
+    position: relative;
+    overflow:visible;
+    z-index: -1;
+}
+
+.btn:hover{
+background-color:#FF6700;
+}
+
+.form .btn a:hover{
+    background-color: white;
+}
+
+.greeting{
+    color: #ffa500;  
+    color: orange;
+}
+
+h2{
+    color: #100438;
+    font-family: "varela Round";
+}
+.middle-line{
+    color: #100438;
+    text-align: center;
+    font-size: small;
+}
+span{
+    color: #100438;
+    font-size:x-small;
+    font-family: "Mulish";
+
+}
+p{
+    font-family: "varela Round";
+    font-size: small;
+}
+font{
+    color: blue;
+}
+.emailbaby{
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: large;
+    font-weight: 900;
+}
+input[type=password]{
+    width: 100%;
+    padding: 20px 10px 20px 2px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.icon {
+    text-align: center;
+} */
